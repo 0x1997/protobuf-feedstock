@@ -25,7 +25,6 @@ fi
 	    CXX="${CXX}" \
 	    CXXFLAGS="${CXXFLAGS} -O2" \
 	    LDFLAGS="${LDFLAGS}"
-make -j ${CPU_COUNT}
-make check -j ${CPU_COUNT}
+make
 make install
 (cd python && python setup.py install --cpp_implementation --single-version-externally-managed --record record.txt && cd ..)
