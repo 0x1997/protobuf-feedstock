@@ -1,6 +1,6 @@
 {% set name = "protobuf" %}
-{% set version = "3.4.1" %}
-{% set sha256 = "8e0236242106e680b4f9f576cc44b8cd711e948b20a9fc07769b0a20ceab9cc4" %}
+{% set version = "3.5.0.1" %}
+{% set sha256 = "86be71e61c76575c60839452a4f265449a6ea51570d7983cb929f06ad294b5f5" %}
 
 package:
   name: {{ name }}
